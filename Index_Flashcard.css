@@ -1,0 +1,188 @@
+#flashcard {
+    background-image:url("../images/index1.jpg");
+    height:400px;
+}
+
+.header_flash{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+     }
+
+.containerflash{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+     }
+
+.navflash {
+        padding-top: 10px;
+        padding-left: 3px;
+          }
+.navflash ul{
+        list-style-type:none;
+        padding:0;
+        overflow:hidden;
+        }
+.navflash ul li {
+        float:left;
+        }
+.navflash ul a:link,a:visited {
+        display:block;
+        width:150px;
+        font-weight:bold;
+        color:#FFFFFF;
+        background-color:gray;
+        text-align:center;
+        padding:4px;
+        text-decoration:none;
+        text-transform:uppercase;
+        }
+.navflash ul a:hover,a:active {
+        background-color:#4c4c4c;
+        }
+
+.flashtext {
+    position: relative;
+    padding-top: 30px;
+    padding-left:3px;
+    padding-bottom: 20px;
+    color: white;
+    text-transform:uppercase;
+}
+.box_flash {
+    height: 150px;
+    width: 230px;
+    float: left;
+    position: relative;
+    background-color: #c23916;
+    cursor: pointer;
+    margin: 5px; /* when this value is changed, make sure its also updated in ui class ($widget_margin) */
+    opacity: 1;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+       -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+        -ms-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+         -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    -webkit-transform: rotateY(0deg);
+       -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+         -o-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    font-size: 20px;
+    text-align: center;
+}
+
+.outer{
+        display: table;
+        height: 100%;
+        width: 100%;
+}
+
+.love {
+        display: table-cell;
+        vertical-align: middle;
+}
+
+.box_flash1 {
+    height: 150px;
+    width: 230px;
+     float: left;
+    position: relative;
+    background-color: #6fa014;
+    cursor: pointer;
+    margin: 5px; /* when this value is changed, make sure its also updated in ui class ($widget_margin) */
+    opacity: 1;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+       -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+        -ms-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+         -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    -webkit-transform: rotateY(0deg);
+       -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+         -o-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    font-size: 20px;
+    text-align: center;
+}
+.box_flash2 {
+    height: 150px;
+    width: 230px;
+     float: left;
+    position: relative;
+    background-color: #0097aa;
+    cursor: pointer;
+    margin: 5px; /* when this value is changed, make sure its also updated in ui class ($widget_margin) */
+    opacity: 1;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+       -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+        -ms-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+         -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    -webkit-transform: rotateY(0deg);
+       -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+         -o-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    font-size: 20px;
+    text-align: center;
+}
+
+.box_flash:hover {
+    border: 3px solid white;
+    -webkit-transform: scale(1.05);
+       -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+         -o-transform: scale(1.05);
+            transform: scale(1.05);
+
+}
+.box_flash1:hover {
+   border: 3px solid white;
+   -webkit-transform: scale(1.05);
+       -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+         -o-transform: scale(1.05);
+            transform: scale(1.05);
+
+}
+.box_flash2:hover {
+  border: 3px solid white;
+  -webkit-transform: scale(1.05);
+       -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+         -o-transform: scale(1.05);
+            transform: scale(1.05);
+
+}
